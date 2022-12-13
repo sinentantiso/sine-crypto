@@ -37,10 +37,10 @@ const Navbar = () => {
         </ul>
         <div>
           <Link to='signin'>
-            <button>Signin</button>
+            <button>Sign In</button>
           </Link>
           <Link to='signup'>
-            <button>Signup</button>
+            <button>Sign Up</button>
           </Link>
         </div>
       </div>
