@@ -1,14 +1,12 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import ThemeToggle from './ThemeToggle';
-import {AiOutlineMenu} from 'react-icons/ai';
-
-
+import { AiOutlineMenu } from 'react-icons/ai';
 
 const Navbar = () => {
   return (
-    <div className='rounded-div flex item-center'>
-      <Link to='/'>
+    <div className="rounded-div flex item-center justify-between h-20 font-bold">
+      <Link to="/">
         <h1>Sine-crypto</h1>
       </Link>
       <div>
@@ -26,26 +24,26 @@ const Navbar = () => {
       <div>
         <ul>
           <li>
-            <Link to='/'>Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to='/'>Account</Link>
+            <Link to="/">Account</Link>
           </li>
           <li>
             <ThemeToggle />
           </li>
         </ul>
         <div>
-          <Link to='signin'>
+          <Link to="signin">
             <button>Sign In</button>
           </Link>
-          <Link to='signup'>
+          <Link to="signup">
             <button>Sign Up</button>
           </Link>
         </div>
       </div>
-    </div>    
-  )
-}
+    </div>
+  );
+};
 
-export default Navbar
+export default Navbar;
