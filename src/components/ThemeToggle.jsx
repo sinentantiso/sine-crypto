@@ -6,7 +6,7 @@ const ThemeToggle = () => {
   const { theme, setTheme } = useContext(ThemeContext);
 
   return (
-    <div>
+    <div className='p-12'>
       {theme === 'dark' ? (
         <div onClick ={()=> setTheme(theme === 'dark' ? 'light' : 'dark')}>
           <HiSun />
