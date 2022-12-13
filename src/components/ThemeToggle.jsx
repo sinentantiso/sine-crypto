@@ -9,7 +9,7 @@ const ThemeToggle = () => {
   return (
     <div>
       {theme === 'dark' ? (
-        <div></div>
+        <div>< HiSun />Light Mode</div>
       ): <div></div>}
     </div>
   )
