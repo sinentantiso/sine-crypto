@@ -24,7 +24,17 @@ const Navbar = () => {
       </div>
       {/*Mobil menu */}
       <div>
-        
+        <ul>
+          <li>
+            <Link to='/'>Home</Link>
+          </li>
+          <li>
+            <Link to='/'>Account</Link>
+          </li>
+          <li>
+            <ThemeToggle />
+          </li>
+        </ul>
       </div>
     </div>    
   )
