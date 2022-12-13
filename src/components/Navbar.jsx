@@ -7,6 +7,9 @@ const Navbar = () => {
       <Link to='/'>
         <h1>Sine-crypto</h1>
       </Link>
+      <div>
+        <ThemeToggle />
+      </div>
     </div>    
   )
 }
