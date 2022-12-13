@@ -9,10 +9,10 @@ const Navbar = () => {
       <Link to="/">
         <h1 className='text-2xl'>Sine-crypto</h1>
       </Link>
-      <div>
+      <div className='hidden md:block'>
         <ThemeToggle />
       </div>
-      <div>
+      <div className='hidden md:block'>
         <Link to="signin">Sign In</Link>
         <Link to="signup">Sign Up</Link>
       </div>
