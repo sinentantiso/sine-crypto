@@ -35,6 +35,14 @@ const Navbar = () => {
             <ThemeToggle />
           </li>
         </ul>
+        <div>
+          <Link to='signin'>
+            <button>Signin</button>
+          <Link>
+          <Link to='signup'>
+            <button>Signup</button>
+          <Link>
+        <div>
       </div>
     </div>    
   )
