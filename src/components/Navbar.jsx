@@ -13,7 +13,7 @@ const Navbar = () => {
         <ThemeToggle />
       </div>
       <div className='hidden md:block'>
-        <Link to="signin">Sign In</Link>
+        <Link to="signin" className='p-4 hover:text-accent'>Sign In</Link>
         <Link to="signup">Sign Up</Link>
       </div>
       {/*Mobile icons */}
