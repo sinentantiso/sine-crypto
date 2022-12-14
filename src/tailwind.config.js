@@ -1,4 +1,4 @@
-Module.export = {
+module.export = {
   content: ['./src/**/*/.{js,jsx,ts,tsx}'],
   darkMode: 'class',
   theme: {
@@ -9,15 +9,18 @@ Module.export = {
         button: 'var(--color-bg-button)',
       },
       TextColor: {
-        Accent: 'var(--color-text-primary)',
+        accent: 'var(--color-text-primary)',
         primary: 'var(--color-text-primary)',
         secondary: 'var(--color-text-secondary)',
         btnText: 'var(--color-bg-secondary)',
       },
       borderColor: {
-        
-      }
-    }
+        Accent: 'var(--color-bg-primary)',
+        primary: 'var(--color-bg-secondary)',
+        input: 'var(--color-bg-input)',
+        accent: 'var(--color-text-accent)',
+      },
+    },
   },
   plugins: [],
 };
