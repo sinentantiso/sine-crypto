@@ -4,6 +4,13 @@ import ThemeToggle from './ThemeToggle';
 import { AiOutlineMenu } from 'react-icons/ai';
 
 const Navbar = () => {
+
+  const [nav, setNav] = useState(false)
+
+  const handleNav = () => {
+    setNav(!nav)
+  }
+
   return (
     <div className="rounded-div flex item-center justify-between h-20 font-bold">
       <Link to="/">
