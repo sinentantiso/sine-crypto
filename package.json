@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "firebase": "^9.15.0",
-    "postcss": "^8.4.20",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-icons": "^4.7.1",
@@ -18,7 +17,10 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "react-scripts": "latest"
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.20",
+    "react-scripts": "latest",
+    "tailwindcss": "^3.2.4"
   },
   "browserslist": {
     "production": [
