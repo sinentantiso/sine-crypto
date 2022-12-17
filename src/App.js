@@ -1,8 +1,7 @@
 import React from "react";
 import "./index.css";
-import { ThemeProvider } from "./"
+import { ThemeProvider } from "./context/ThemeContext";
 import Navbar from "./components/Navbar";
-
 
 
 export default function App() {
