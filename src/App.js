@@ -12,6 +12,8 @@ import { Route, Routes } from "react-router-dom";
 
 
 export default function App() {
+
+  const [coin, setCoin] = useState([])
   return (
     <ThemeProvider>
       <Navbar />
